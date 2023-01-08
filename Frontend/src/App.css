@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  border: 2px solid white;
+  height: 10vh;
+  background-color: white;
+  justify-content: space-between;
+  padding-right: 100px;
+  align-items: center;
+  text-decoration: none;
+  z-index: 5;
+}
+.navbar img {
+  margin-left: 40px;
+}
+.home-box {
+  display: flex;
+
+  width: 100%;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #03989e;
+}
+.button-home {
+  padding: 7px 15px;
+  background-color: white;
+  text-decoration: none;
+  outline: none;
+  border: 2px solid lightgray;
+  border-radius: 8px;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  translate: all 1s;
+  font-weight: 600;
+}
+.button-home:hover {
+  border-color: grey;
+  color: #03989e;
+}
+
+table tr th {
+  padding: 8px 16px;
+  background-color: whitesmoke;
+}
+table tr td {
+  padding: 8px 16px;
+}
+table tr:nth-child(odd) {
+  background-color: lightgray;
+}
+table tr:nth-child(even) {
+  background-color: navajowhite;
+}
+.pagination {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  gap: 10px;
+}
+.page-btn {
+  padding: 7px 15px;
+  background-color: white;
+  text-decoration: none;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  font-size: 14px;
+  color: black;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  translate: all 1s;
+  font-weight: 500;
+}
